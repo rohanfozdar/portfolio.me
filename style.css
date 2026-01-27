@@ -26,17 +26,27 @@ p {
   line-height: 1.6;
 }
 
-.intro {
-  max-width: 700px;
-}
-
+/* Project section only */
 ul.projects {
   list-style: none;
   padding-left: 0;
+  margin-left: 0;
 }
 
 ul.projects li {
+  font-size: 12px;
   margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+/* If project descriptions are in <p> tags inside projects */
+ul.projects li p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.intro {
+  max-width: 700px;
 }
 
 a {
@@ -53,3 +63,4 @@ hr {
   border: none;
   border-top: 1px solid #ddd;
 }
+
