@@ -1,32 +1,47 @@
+/* Global styles */
 body {
   font-family: 'Poppins', sans-serif;
   text-align: left;
   color: #111;
   background: #fff;
+  margin: 0;
 }
 
+/* Main content container */
 .container {
   max-width: 850px;
   margin: 60px auto;
-  padding: 0 20px;
+  padding-left: 30px;
+  padding-right: 20px;
 }
 
+/* Headings */
 h1 {
   font-size: 28px;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 h2 {
   font-size: 18px;
+  font-weight: 500;
   margin-top: 30px;
+  margin-bottom: 10px;
 }
 
+/* General text */
 p {
   font-size: 15px;
   line-height: 1.6;
+  margin-bottom: 12px;
 }
 
-/* Project section only */
+/* Intro section width */
+.intro {
+  max-width: 700px;
+}
+
+/* Projects section */
 ul.projects {
   list-style: none;
   padding-left: 0;
@@ -34,21 +49,19 @@ ul.projects {
 }
 
 ul.projects li {
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 1.5;
   margin-bottom: 12px;
-  line-height: 1.5;
 }
 
-/* If project descriptions are in <p> tags inside projects */
+/* Project descriptions (if inside <p>) */
 ul.projects li p {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
+  margin: 4px 0 0 0;
 }
 
-.intro {
-  max-width: 700px;
-}
-
+/* Links */
 a {
   color: #0055cc;
   text-decoration: none;
@@ -58,9 +71,9 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Divider */
 hr {
   margin: 30px 0;
   border: none;
   border-top: 1px solid #ddd;
 }
-
