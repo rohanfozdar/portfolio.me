@@ -65,10 +65,12 @@ ul.projects li p {
 a {
   color: #0055cc;
   text-decoration: none;
+  font-size: 14px;
 }
 
 a:hover {
   text-decoration: underline;
+  font-size: 14px;
 }
 
 /* Divider */
